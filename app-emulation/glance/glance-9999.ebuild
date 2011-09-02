@@ -5,9 +5,9 @@ PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABI="1"
 DISTUTILS_SRC_TEST="nosetests"
 
-inherit bzr distutils
+inherit git-2 distutils
 SRC_URI=""
-EBZR_REPO_URI="lp:glance"
+EGIT_REPO_URI="https://github.com/piston/glance.git"
 
 DESCRIPTION="OpenStack: The Glance project provides services for discovering, registering, and retrieving virtual machine images."
 HOMEPAGE="http://glance.openstack.org/"

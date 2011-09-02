@@ -6,8 +6,8 @@ SUPPORT_PYTHON_ABIS="1"
 RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
 
-inherit bzr distutils
-EBZR_REPO_URI="lp:python-novaclient"
+inherit git-2 distutils
+EGIT_REPO_URI="https://github.com/piston/novaclient.git"
 
 DESCRIPTION="Client library for OpenStack Nova API"
 HOMEPAGE="https://github.com/rackspace/python-novaclient"

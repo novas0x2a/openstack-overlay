@@ -9,8 +9,8 @@ DISTUTILS_SRC_TEST="nosetests"
 # Tests are broken :*(
 RESTRICT="test"
 
-inherit bzr distutils
-EBZR_REPO_URI="lp:openstackx"
+inherit git-2 distutils
+EGIT_REPO_URI="https://github.com/piston/openstackx.git"
 
 DESCRIPTION="Client library extensions for the OpenStack API"
 HOMEPAGE="http://github.com/cloudbuilders/openstackx/"

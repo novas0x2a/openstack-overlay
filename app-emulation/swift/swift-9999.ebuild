@@ -5,9 +5,9 @@ PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABI="1"
 DISTUTILS_SRC_TEST="nosetests"
 
-inherit distutils bzr
+inherit distutils git-2
 SRC_URI=""
-EBZR_REPO_URI="lp:swift"
+EGIT_REPO_URI="https://github.com/piston/swift.git"
 
 DESCRIPTION="Swift is a highly available, distributed, eventually consistent object/blob store."
 HOMEPAGE="https://launchpad.net/swift"
